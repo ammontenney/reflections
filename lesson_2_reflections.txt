@@ -21,10 +21,17 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches allow you to set milestones in the development.
+
 How do the diagrams help you visualize the branch structure?
+
+    They can help you identify when you're in a detached head state.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    After merging two branches the code become unified into one branch and the new commit
+    has two parent commits. That's why the diagram has two arrows point to two parents.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
